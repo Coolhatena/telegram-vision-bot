@@ -8,6 +8,6 @@ async def hello(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 app = ApplicationBuilder().token("7681957954:AAHNv7K4oyjaUsXShouNMopsvM9i17qJ5OE").build()
 
-app.add_handler(CommandHandler("hello", hello))
+app.add_handler(CommandHandler("hi", hello))
 
 app.run_polling()
